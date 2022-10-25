@@ -1,0 +1,16 @@
+Package: hmdbconc
+Type: Package
+Title: HMDB Normal Concentrations
+Version: 0.1.0
+Authors@R: c(
+    person("Tom", "Wilson", , "tpw2@aber.ac.uk", c("aut", "cre")))
+Description: Retrieve the Normal Concentrations table of accessions from the Human Metabolome Database (HMDB).
+License: GPL (>= 3)
+Depends:
+  magrittr
+Imports:
+  xml2,
+  tibble,
+  purrr
+Encoding: UTF-8
+LazyData: true
